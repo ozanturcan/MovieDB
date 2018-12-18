@@ -21,6 +21,9 @@ android {
         versionName rootProject.ext.versionName
     }
 
+    dataBinding {
+        enabled = true
+    }
     buildTypes {
 
         release {
@@ -37,7 +40,9 @@ dependencies {
 
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${libraries.kotlin_version}"
-
+    implementation "android.arch.lifecycle:runtime:${libraries.arch}"
+    implementation "android.arch.lifecycle:extensions:${libraries.arch}"
+    implementation "android.arch.lifecycle:reactivestreams:${libraries.arch}"
     //Android Support
     //noinspection GradleCompatible
     implementation "com.android.support:appcompat-v7:${libraries.supportVersion}"

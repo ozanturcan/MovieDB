@@ -1,5 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- margins -->
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+
+    <!-- text sizes -->
+    <dimen name="size_text_small">12sp</dimen>
+    <dimen name="size_text_regular">16sp</dimen>
+    <dimen name="size_text_medium">20sp</dimen>
+    <dimen name="size_text_large">24sp</dimen>
+    <dimen name="size_text_xlarge">28sp</dimen>
+
+    <!-- common heights-->
+    <dimen name="height_page_label">56dp</dimen>
+    <dimen name="height_divider">0.5dp</dimen>
+
+    <!-- common sizes -->
+    <dimen name="size_card_large">144dp</dimen>
+    <dimen name="size_card_medium">108dp</dimen>
+    <dimen name="size_card_small">72dp</dimen>
+    <dimen name="size_avatar">56dp</dimen>
+
+    <!-- bottom player -->
+    <dimen name="height_bottom_navigation">60dp</dimen>
+    <dimen name="height_bottom_player">60dp</dimen>
+    <dimen name="size_bottom_player_avatar">32dp</dimen>
+    <dimen name="size_bottom_player_play_pause">32dp</dimen>
+
+    <!-- Notification -->
+    <dimen name="size_notification_avatar">56dp</dimen>
+    <dimen name="size_notification_action">32dp</dimen>
+
 </resources>

@@ -2,7 +2,7 @@ package com.example.legend.moviedb.service.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Category(
+data class Genre(
 	@SerializedName("name")
 	val name: String? = null,
 	@SerializedName("id")
