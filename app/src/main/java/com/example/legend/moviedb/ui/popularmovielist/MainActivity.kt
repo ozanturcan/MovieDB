@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
         viewModel.popularListLiveDate.observe(this, Observer {
 
-             it?.data
+            it?.listResult
 
         })
     }
