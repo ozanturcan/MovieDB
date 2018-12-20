@@ -19,7 +19,7 @@ class MainViewModel : ViewModel() {
 
     private fun loadPopular() =
         MovieRepository().getPopularMovieList("2")
-            ?.map {  MainViewState(it.data) }
+            ?.map { MainViewState(it) }
             ?.observeOn(AndroidSchedulers.mainThread())
             ?.subscribe(_popularList::setValue)
 

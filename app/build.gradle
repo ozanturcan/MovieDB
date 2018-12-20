@@ -37,7 +37,7 @@ android {
 dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
+    apply plugin: 'kotlin-kapt'
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${libraries.kotlin_version}"
     implementation "android.arch.lifecycle:runtime:${libraries.arch}"
@@ -62,4 +62,8 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:${libraries.rxandroid}"
     implementation "io.reactivex.rxjava2:rxjava:${libraries.rxjava}"
     implementation "com.squareup.retrofit2:adapter-rxjava2:${libraries.rxadapter}"
+
+//    Picasso
+    implementation "com.squareup.picasso:picasso:${libraries.picasso}"
+
 }
