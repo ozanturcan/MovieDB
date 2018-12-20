@@ -5,6 +5,10 @@
     <dimen name="margin_8dp">8dp</dimen>
     <dimen name="margin_16dp">16dp</dimen>
     <dimen name="margin_24dp">24dp</dimen>
+    <!-- margins -->
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_24dp">24dp</dimen>
 
     <!-- text sizes -->
     <dimen name="size_text_small">12sp</dimen>
@@ -12,6 +16,8 @@
     <dimen name="size_text_medium">20sp</dimen>
     <dimen name="size_text_large">24sp</dimen>
     <dimen name="size_text_xlarge">28sp</dimen>
+    <dimen name="size_text_2xlarge">32sp</dimen>
+    <dimen name="size_text_3xlarge">36sp</dimen>
 
     <!-- common heights-->
     <dimen name="height_page_label">56dp</dimen>
